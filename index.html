@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>neokeys</title>
+        <link href="css.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>neokeys</h1>
+        <h5>bringing AOL-style keywords to the modern Internet</h5>
+        <hr><hr>
+        <h3>Setting Up Neokeys</h3>
+        <div class="browsers">
+            <div class="chromium">
+                <h4>On Chromium-based Browsers</h4>
+                <ul>
+                    <li>Use the link generator below to get a link that uses your favourite search engine as a backup</li>
+                    <li>Copy the link you generated</li>
+                    <li>Click the 3 dots in the top-right corner</li>
+                    <li>Click "Settings"</li>
+                    <li>Click "Search Engine"</li>
+                    <li>Click "Manage search engines and site search"</li>
+                    <li>On the Settings tab, click the "Add" button to the right of "Site search" (you might need to scroll down)</li>
+                    <li>Enter whatever you want under Name and Shortcut (but use something that makes sense to you)</li>
+                    <li>Paste the generated URL under "URL with %s in place of query"</li>
+                    <li>Click the "Add" button</li>
+                    <li>Click the 3 dots next to the entry you just created for neokeys</li>
+                    <li>Click "Make default"</li>
+                </ul>
+            </div>
+            <div class="divider">
+                <p>
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                    | <br />
+                </p>
+            </div>
+            <div class="firefox">
+                <h4>On Firefox-based Browsers</h4>
+                <ul>
+                    <li>Use the link generator below to get a link that uses your favourite search engine as a backup</li>
+                    <li>Copy the link you generated</li>
+                    <li>Click the 3 lines in the top-right corner</li>
+                    <li>Click "Settings"</li>
+                    <li>Click "Search"</li>
+                    <li>Click the "Add" button at the bottom of the page</li>
+                    <li>Enter whatever you want under "Search engine name" (but use something that makes sense to you)</li>
+                    <li>Paste the generated URL under "URL with %s in place of search term"</li>
+                    <li>Click the "Add Engine" button</li>
+                    <li>Under "Default Search Engine" at the top of the page, select the one with the name you put in</li>
+                </ul>
+            </div>
+        </div>
+        <div class="setup">
+            <div class="linkgen">
+                <p>What search engine do you want as a backup?</p>
+                <select id="search" onclick="funky()">
+                    <option onclick="funky()">Google</option>
+                    <option onclick="funky()">Brave Search</option>
+                    <option onclick="funky()">DuckDuckGo</option>
+                    <option onclick="funky()">Bing</option>
+                    <option onclick="funky()">Wikipedia</option>
+                    <option onclick="funky()">Yahoo</option>
+                    <option onclick="funky()">No Search</option>
+                    <option onclick="funky()">Other</option>
+                </select>
+                <div id="other">
+
+                </div>
+                <button onclick="linkgen()">Generate Link</button>
+                <p id="linkout"></p>
+            </div>
+        </div>
+        <script src="jayess.js"></script>
+    </body>
+</html>
